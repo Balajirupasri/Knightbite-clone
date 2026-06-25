@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+nav{
+background-color: rgba(0, 0, 0, 0.3);
+display: flex; /*  it converts block elements to inline elements */
+justify-content: space-between;/* it provides spavce between the eleemenst of the nav tag*/
+align-items: center; /*all the elements inside the nav tag comes vertically centered*/
+padding:1rem;
+position: fixed;
+width:100%;
+}
+.navlinks ul{
+    display: flex;
+    list-style-type: none;
+    gap: 2rem;/* 1 rem=16px*/
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.footer-end{
+        text-align: center;
+        font-size: 13px;
+        color:white;
+        background: linear-gradient(to right,violet,hotpink);
+        padding:1rem;
+        
+    }
+    .menu1{
+    background:url(./Assets/images/banner.webp) no-repeat center/cover;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+
+    }
+    .menu1{
+        .course1{
+            display: flex;
+            margin-left: 300px;
+            align-items: center;
+
+        }
+        
+        .course2{
+            display:flex;
+            margin-left: 300px;
+            align-items: center;
+        }
+        .hi1{
+            color: white;
+            
+        }
+        .hi2{
+            display: relative;
+            margin-left: 200px;
+            color:white;
+        }
+        .hi3{
+            display: relative;
+            margin-left: 200px;
+            color: white;
+        }
+        .hello2{
+            display: relative;
+            margin-left: 300px;
+            color: white;
+            align-items: center;
+            gap:20px;
+            img{
+                width: 75px;
+            }
+           
+        }
+        .hello3{
+            display: relative;
+            margin-left: 300px;
+            color:white;
+            align-items: center;
+            img{
+                width:150px;
+            }
+        }
+        .hello1{
+            color: white;
+            align-items: center;
+            img{
+                width: 75px;
+            }
+        }
+       
+    }
